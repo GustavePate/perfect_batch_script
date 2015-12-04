@@ -13,8 +13,8 @@ base=`dirname $0`
 LOGGER=$base"/main.log"
 if [ -f $LOGGER ];then
     rm $LOGGER
-    touch $LOGGER
 fi
+touch $LOGGER
 LOG_MODE="stdout"
 #LOG_MODE="discret"
 
